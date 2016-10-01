@@ -9,6 +9,7 @@ class Neutral {
 		
 		for(let step in steps) {
 			console.log("[Neutral] Step "+step+" : variables { "+steps[step].join(", ")+" }");
+			
 			this.steps = steps;
 			this.variables[step] = null;
 		}
